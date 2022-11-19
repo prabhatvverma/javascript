@@ -1,0 +1,35 @@
+body {
+    border: 0;
+    padding: 0;
+}
+
+h1 {
+    background-color: rgb(102, 13, 245);
+    text-align: center;
+    padding: 10px;
+    margin: 0;
+}
+
+h2 {
+    background-color: rgb(39, 133, 136);
+    text-align: center;
+    padding: 7px;
+    margin: 0
+}
+
+.btn {
+    margin-left: 50%;
+    margin-top: 5%;
+    padding: 12px 28px;
+    border-radius: 8px;
+    background-color: #fff;
+    border: 2px solid green;
+    transition-duration: 0.4s;
+
+
+}
+
+.btn:hover {
+    background-color: green;
+    color: white;
+}
