@@ -7,7 +7,14 @@ function multiplyAsync(number1, number2, fn) {
     }, 0);
 }
 
+function multiplyAsync2(number1, number2){
+    return new Promise(function (resolve, reject) {
+        resolve(number1*number2)
+    })
+}
+
 export {
     multiply,
-    multiplyAsync
+    multiplyAsync,
+    multiplyAsync2
 };
