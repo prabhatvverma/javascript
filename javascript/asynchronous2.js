@@ -28,3 +28,12 @@ btn.addEventListener("click", function () {
     window.clearInterval(timer);
     console.log("Button Is Clicked ...");
 });
+
+setTimeout((param1, param2) => {
+    console.log("Hello", param1, param2);
+}, 0, "some value", 100);
+console.log("World");
+
+for (let i = 0; i < 5; i++) {
+    console.log(i);
+}
