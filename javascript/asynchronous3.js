@@ -1,4 +1,4 @@
-import { multiply, multiplyAsync, multiplyAsync2 } from "./async-util.js";
+import { multiply, multiplyAsync, multiplyAsync2, multiplyAsync3 } from "./async-util.js";
 
 multiplyAsync(4, 6, function (result) {
     console.log("result from async : " + result);
@@ -16,3 +16,8 @@ const multiplyPromise= multiplyAsync2(5,7);
 multiplyPromise.then (function(result){
     console.log("result from async2 : "+result);
 });
+
+const multiplyAsyncAwait = multiplyAsync3(10,10);
+multiplyAsyncAwait.then (function(result){
+    console.log("result for async3 : " +result);
+})
